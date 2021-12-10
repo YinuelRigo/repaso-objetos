@@ -1,8 +1,9 @@
 package uaslp.objetos.figuras;
 
-public class Cuadrado {
+public class Cuadrado extends Figura{
     private double lado;
     private double area;
+    private String name;
 
     public Cuadrado() {
 
@@ -22,5 +23,10 @@ public class Cuadrado {
     public double getArea(){
         area = lado * lado;
         return area;
+    }
+
+    public String getName() {
+        name = "Cuadrado";
+        return name;
     }
 }
