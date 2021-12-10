@@ -21,12 +21,17 @@ public class Cuadrado extends Figura{
     }
 
     public double getArea(){
+        if(lado==0)
+        {
+            throw new LadoNoProvistoException();
+        }
         area = lado * lado;
         return area;
     }
 
-    public String getName() {
+    public String getName(){
         name = "Cuadrado";
         return name;
     }
+
 }

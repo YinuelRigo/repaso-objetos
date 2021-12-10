@@ -1,6 +1,6 @@
 package uaslp.objetos.figuras;
 
-public interface DrawableItem{
+public interface DrawableItem {
 
     String getName();
 
