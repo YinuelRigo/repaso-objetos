@@ -25,4 +25,5 @@ public class Exercise6 {
         assertThat(Dependencia2.class).isInterface();
         assertThat(Dependencia3.class).isInterface();
     }
+
 }
